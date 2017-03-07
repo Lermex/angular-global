@@ -24,10 +24,10 @@ import { ROUTES } from './app.routes';
 import { AppComponent } from './app.component';
 import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
-import { HomeComponent } from './home';
-import { AboutComponent } from './about';
-import { NoContentComponent } from './no-content';
-import { XLargeDirective } from './home/x-large';
+import { HomeComponent } from '../pages/courses';
+import { AboutComponent } from '../pages/about';
+import { NoContentComponent } from '../pages/no-content';
+import { XLargeDirective } from '../pages/courses/x-large';
 
 import '../styles/styles.scss';
 import '../styles/headings.css';

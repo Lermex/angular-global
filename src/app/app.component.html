@@ -1,0 +1,18 @@
+<nav>
+  <a [routerLink]=" ['./courses'] "
+     routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
+    Courses
+  </a>
+  <a [routerLink]=" ['./about'] "
+     routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
+    About
+  </a>
+</nav>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <span>Angular Global by <a href="http://github.com/Lermex">Lermex</a></span>
+</footer>

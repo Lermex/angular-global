@@ -12,6 +12,8 @@
     "importHelpers": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
     "lib": [
       "dom",
       "es6"
