@@ -4,14 +4,9 @@ import {
 } from '@angular/core';
 
 import { AppState } from '../../app/app.service';
-import { Title } from './title';
-import { XLargeDirective } from './x-large';
 
 @Component({
   selector: 'courses',
-  providers: [
-    Title
-  ],
   styleUrls: [ 'courses.component.css' ],
   templateUrl: 'courses.component.html'
 })
@@ -20,7 +15,6 @@ export class HomeComponent implements OnInit {
 
   constructor(
     public appState: AppState,
-    public title: Title
   ) {}
 
   public ngOnInit() {
